@@ -1,0 +1,77 @@
+{
+  "menu":[
+    {
+      "id": 1,
+      "name": "Home",
+      "icon": "home"
+    },
+    {
+      "id": 2,
+      "name": "Products",
+      "icon": "bag"
+    },
+    {
+      "id": 3,
+      "name": "Orders",
+      "icon": "cart"
+    },
+    {
+      "id": 4,
+      "name": "Payments",
+      "icon": "wallet"
+    },
+    {
+      "id": 5,
+      "name": "Customers",
+      "icon": "people"
+    },
+    {
+      "id": 6,
+      "name": "Feedback",
+      "icon": "chat"
+    },
+    {
+      "id": 7,
+      "name": "Settings",
+      "icon": "settings"
+    }
+  ],
+  "cards":[
+    {
+      "id":1,
+      "name": "Customers",
+      "amount": "8,450",
+      "icon": "arrow-up",
+      "percent": "14%",
+      "style": "card__item card__item--pry",
+      "icon-clr":"icon icon_green"
+    },
+    {
+      "id": 2,
+      "name": "Orders today",
+      "amount": "23,900",
+      "icon": "arrow-down",
+      "percent": "8%",
+      "style": "card__item",
+      "icon-clr":"icon icon_red"
+    },
+    {
+      "id": 3,
+      "name": "Products",
+      "amount": "941",
+      "icon": "arrow-up",
+      "percent": "19%",
+      "style": "card__item",
+      "icon-clr":"icon icon_green"
+    },
+    {
+      "id": 4,
+      "name": "Total Sales",
+      "amount": "RM430,880",
+      "icon": "arrow-up",
+      "percent": "32%",
+      "style": "card__item",
+      "icon-clr":"icon icon_green"
+    }
+  ]
+}
