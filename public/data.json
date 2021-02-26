@@ -44,7 +44,7 @@
       "icon": "arrow-up",
       "percent": "14%",
       "style": "card__item card__item--pry",
-      "icon-clr":"icon icon_green"
+      "icon_clr":"icon icon_green"
     },
     {
       "id": 2,
@@ -53,7 +53,7 @@
       "icon": "arrow-down",
       "percent": "8%",
       "style": "card__item",
-      "icon-clr":"icon icon_red"
+      "icon_clr":"icon icon_red"
     },
     {
       "id": 3,
@@ -62,7 +62,7 @@
       "icon": "arrow-up",
       "percent": "19%",
       "style": "card__item",
-      "icon-clr":"icon icon_green"
+      "icon_clr":"icon icon_green"
     },
     {
       "id": 4,
@@ -71,7 +71,10 @@
       "icon": "arrow-up",
       "percent": "32%",
       "style": "card__item",
-      "icon-clr":"icon icon_green"
+      "icon_clr":"icon icon_green"
     }
-  ]
+  ],
+  "chartData":{
+    "sales":[0, 10, 5, 2, 15, 17, 30, 29, 25, 35, 20, 15, 18]
+  }
 }

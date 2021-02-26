@@ -20,3 +20,24 @@ a{
 .container{
   display:flex;
 }
+.image__container{
+ width: 4rem;
+ height: 4rem;
+ display: inline-block;
+ position: relative;
+ border: 3px solid $gray;
+ border-radius: 50%;
+ overflow: hidden;
+
+ img{
+   width: 100%;
+   height: 100%;
+   object-fit:center;
+ }
+}
+.icon_red{
+  color: $red_clr;
+}
+.icon_green{
+  color: $green_clr;
+}

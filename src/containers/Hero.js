@@ -6,7 +6,7 @@ function Hero(props) {
   return (
     <div className="hero__container">
       <Header />
-      <Cards data={ props.data }/>
+      <Cards data={props.data} />
     </div>
   )
 }
