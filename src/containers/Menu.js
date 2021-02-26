@@ -7,7 +7,7 @@ function Menu(props) {
   return (
     <nav className="menu__container">
       <Logo />
-      <Navbar data={ data }/>
+      <Navbar data={data} />
     </nav>
   )
 }

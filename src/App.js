@@ -22,7 +22,7 @@ function App() {
         <Menu data={data.menu} />
       </div>
       <div className="hero">
-        <Hero data={data.cards}/>
+        <Hero data={data.cards} />
       </div>
       
     </div>
