@@ -49,11 +49,13 @@ function SalesChart({ data }) {
     <div className="chart__container">
       <div className="chart__card">
         <p className="card__title">Sales in the last 7 days</p>
-        <Line
-          data={chatData}
-          options={options}
-          height={120}
-        />
+        <div className="line">
+          <Line
+            data={chatData}
+            options={options}
+            height={120}
+          />
+        </div>
       </div>
     </div>
   )
