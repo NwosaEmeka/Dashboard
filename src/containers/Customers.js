@@ -2,8 +2,8 @@ import React from 'react'
 
 function Customers({ data }) {
   const tableData = data?.map((tdata => {
-    return <tr>
-      <td className="tdata__name" key="tdata.id">
+    return <tr key={tdata.id}>
+      <td className="tdata__name">
         <div className="image__container">
           <img src={tdata.image} alt={tdata.name}/>
         </div>
@@ -18,7 +18,7 @@ function Customers({ data }) {
   return (
     <div className="chart__container mt">
       <div className="chart__card">
-        <p className="chart__title">Top Customers</p>
+        <p className="card__title">Top Customers</p>
         <table id="customer__table">
           <thead>
             <tr>

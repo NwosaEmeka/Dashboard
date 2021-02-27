@@ -32,8 +32,8 @@ function App() {
             <Customers data={data.customers}/>
           </div>
           <div className="minor__showcase">
-            <Orders />
-            <Recent />
+            <Orders data={data.orders}/>
+            <Recent data={data.recent}/>
           </div>
       </div>
       </div>

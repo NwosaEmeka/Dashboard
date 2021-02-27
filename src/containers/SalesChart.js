@@ -10,8 +10,8 @@ function SalesChart({ data }) {
           label: "",
           backgroundColor: 'rgba(255,255,255,1)',
           data: data?.sales,
-          borderWidth: 3,
-          borderColor: 'rgb(32, 93, 219)',
+          borderWidth: 2,
+          borderColor: 'rgb(64, 96, 183)',
           pointRadius: 0,
         }
       ]
@@ -48,11 +48,11 @@ function SalesChart({ data }) {
   return (
     <div className="chart__container">
       <div className="chart__card">
-        <p className="chart__title">Sales in the last 7 days</p>
+        <p className="card__title">Sales in the last 7 days</p>
         <Line
           data={chatData}
           options={options}
-          height={200}
+          height={120}
         />
       </div>
     </div>

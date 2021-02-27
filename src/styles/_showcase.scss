@@ -1,6 +1,6 @@
 .chart__container{
   width: 100%;
-  max-height: 20rem;
+  height: auto;
   background-color: #fff;
   border-radius: 0.5rem;
   padding: 0.5rem;
@@ -8,15 +8,14 @@
 }
 
 .chart__card{
-    width: 100%;
-    height: 100%;
-
-    .chart__title{
-      font-weight:600;
-      font-size: 0.8rem;
-      margin: 0.8rem 0;
-    }
-  }
+  width: 100%;
+  height: 100%;
+}
+.card__title{
+  font-weight:600;
+  font-size: 0.8rem;
+  margin: 0.8rem 0;
+}
   #customer__table{
     width: 100%;
 
@@ -56,3 +55,46 @@
       color: rgb(122, 143, 236);
     }
   }
+
+  .orders__items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.2rem 0;
+
+    .order__info{
+      display: flex;
+      align-items: center;
+  }
+}
+.order__text{
+  margin-left:0.5rem;
+
+  .order__text--lg{
+    font-weight:700;
+    font-size: 0.8rem;
+  }
+  .order__text--sm{
+    font-size: 0.6rem;
+    color: $gray;
+    margin-top: 0.3rem;
+  }
+}
+.order__price{
+  font-size:0.85rem;
+}
+
+.month__orders{
+  p{
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+}
+.donaught{
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+}
+.pd-3{
+  padding: 1.5rem;
+}
