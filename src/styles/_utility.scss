@@ -10,7 +10,6 @@ $red_clr: rgb(242, 97, 114);
   box-sizing: border-box;
 }
 body{
-  font-size: 10px;
   background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,8 +20,8 @@ a{
   display:flex;
 }
 .image__container{
- width: 4rem;
- height: 4rem;
+ width: 2rem;
+ height: 2rem;
  display: inline-block;
  position: relative;
  border: 3px solid $gray;
@@ -35,9 +34,31 @@ a{
    object-fit:center;
  }
 }
+.mt{
+  margin-top: 1rem;
+}
 .icon_red{
   color: $red_clr;
 }
 .icon_green{
   color: $green_clr;
+}
+
+.showcase{
+  display: flex;
+  margin: 0 -0.5rem;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+.minor__showcase{
+  flex: 1;
+  max-width:100%;
+  height: auto;
+  margin: 0.5rem;
+}
+.main__showcase{
+  flex: 3;
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import { generateIcon } from '../utilities/IconGenerate';
 
-function Navbar(props) {
+function Navbar({data}) {
  
-  const menuItems = props.data?.map((menuItem) => {
+  const menuItems = data?.map((menuItem) => {
     let icon = menuItem.icon;
     return <li key={menuItem.id} className="nav__item">
       <a href="/" className="nav__link">
