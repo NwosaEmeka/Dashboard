@@ -118,5 +118,47 @@
       "total": "RM4,481",
       "style": "btn blue__btn"
     }
+  ],
+  "recent": [
+    {
+      "id": 1,
+      "name": "EarPod",
+      "text": "3 mins ago",
+      "image": "/assets/earbud.png",
+      "price": "+RM450"
+    },
+    {
+      "id": 2,
+      "name": "Iphone 6s",
+      "text": "12 mins ago",
+      "image": "/assets/iphone.png",
+      "price": "+RM1200"
+    }
+  ],
+  "orders":[
+    {
+      "id": 1,
+      "name": "Twitter",
+      "amount": 51,
+      "diff": 3.8,
+      "icon": "arrow-up",
+      "icon_clr":"icon icon_green"
+    },
+    {
+      "id": 2,
+      "name": "Facebook",
+      "amount": 32,
+      "diff": 2.6,
+      "icon": "arrow-down",
+      "icon_clr":"icon icon_red"
+    },
+    {
+      "id": 3,
+      "name": "Instagram",
+      "amount": 17,
+      "diff": 1.4,
+      "icon": "arrow-up",
+      "icon_clr":"icon icon_green"
+    }
   ]
 }
