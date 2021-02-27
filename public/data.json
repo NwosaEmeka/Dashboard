@@ -76,5 +76,47 @@
   ],
   "chartData":{
     "sales":[0, 10, 5, 2, 15, 17, 30, 29, 25, 35, 20, 15, 18]
-  }
+  },
+  "customers":[
+    {
+      "id": 1,
+      "image": "/assets/mypic.jpg",
+      "name": "Johnson",
+      "order": "4,528",
+      "status": "Completed",
+      "created": "Jan 3, 14:37 PM",
+      "total": "RM14,916",
+      "style": "btn gray__btn"
+    },
+    {
+      "id": 2,
+      "image": "/assets/mypic.jpg",
+      "name": "Peter Gill",
+      "order": "3,022",
+      "status": "Accepted",
+      "created": "Jan 16, 9:37 AM",
+      "total": "RM10,005",
+      "style": " btn green__btn"
+    },
+    {
+      "id": 3,
+      "image": "/assets/mypic.jpg",
+      "name": "Sammy",
+      "order": "1005",
+      "status": "Accepted",
+      "created": "Jan 18, 11:30 AM",
+      "total": "RM6,792",
+      "style": "btn green__btn"
+    },
+    {
+      "id": 4,
+      "image": "/assets/mypic.jpg",
+      "name": "Colin",
+      "order": "628",
+      "status": "Delivered",
+      "created": "Feb 24, 17:45 PM",
+      "total": "RM4,481",
+      "style": "btn blue__btn"
+    }
+  ]
 }

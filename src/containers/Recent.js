@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Showcase() {
+function Recent() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Showcase() {
   )
 }
 
-export default Showcase
+export default Recent
